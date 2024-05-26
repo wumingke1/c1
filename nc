@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2024-05-26 12:07:37
+# 客户端：Clash
+# 创建时间：2024-05-26 12:45:18
 # 使用模版：V2RaySE 默认模版
-# 节点数量：54
+# 节点数量：53
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -104,7 +103,6 @@ proxies:
   - {"name":"台湾-专线ss1","type":"ss","server":"ny.whatfuck.top","port":12697,"password":"1379e189-8dc5-4df1-86dc-9a08b455ff60","cipher":"chacha20-ietf-poly1305"}
   - {"name":"台湾-专线ss2","type":"ss","server":"ny.whatfuck.top","port":18181,"password":"1379e189-8dc5-4df1-86dc-9a08b455ff60","cipher":"chacha20-ietf-poly1305"}
   - {"name":"台湾-专线ss3","type":"vmess","server":"ny.whatfuck.top","port":47015,"cipher":"auto","uuid":"1379e189-8dc5-4df1-86dc-9a08b455ff60","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾1-直连x","type":"hysteria2","server":"tw1hy.fuckvps.top","port":443,"password":"1379e189-8dc5-4df1-86dc-9a08b455ff60","sni":"tw1hy.fuckvps.top","skip-cert-verify":true,"obfs-password":"ZDQxZDhjZDk4ZjAwYjIwNA=="}
   - {"name":"台湾-流媒体专线","type":"vmess","server":"tw1vm.fuckvps.top","port":2096,"cipher":"auto","uuid":"1379e189-8dc5-4df1-86dc-9a08b455ff60","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw1vm","headers":{"host":"tw1vm.fuckvps.top"}}}
   - {"name":"日本1","type":"ss","server":"kk.huaweiddns.com","port":39645,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
   - {"name":"日本2","type":"ss","server":"kk.huaweiddns.com","port":39645,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
@@ -164,7 +162,6 @@ proxy-groups:
       - 台湾-专线ss1
       - 台湾-专线ss2
       - 台湾-专线ss3
-      - 台湾1-直连x
       - 台湾-流媒体专线
       - 日本1
       - 日本2
@@ -224,7 +221,6 @@ proxy-groups:
       - 台湾-专线ss1
       - 台湾-专线ss2
       - 台湾-专线ss3
-      - 台湾1-直连x
       - 台湾-流媒体专线
       - 日本1
       - 日本2
@@ -284,7 +280,6 @@ proxy-groups:
       - 台湾-专线ss1
       - 台湾-专线ss2
       - 台湾-专线ss3
-      - 台湾1-直连x
       - 台湾-流媒体专线
       - 日本1
       - 日本2
@@ -343,7 +338,6 @@ proxy-groups:
       - 台湾-专线ss1
       - 台湾-专线ss2
       - 台湾-专线ss3
-      - 台湾1-直连x
       - 台湾-流媒体专线
       - 日本1
       - 日本2
@@ -402,7 +396,6 @@ proxy-groups:
       - 台湾-专线ss1
       - 台湾-专线ss2
       - 台湾-专线ss3
-      - 台湾1-直连x
       - 台湾-流媒体专线
       - 日本1
       - 日本2
@@ -461,7 +454,6 @@ proxy-groups:
       - 台湾-专线ss1
       - 台湾-专线ss2
       - 台湾-专线ss3
-      - 台湾1-直连x
       - 台湾-流媒体专线
       - 日本1
       - 日本2
@@ -537,7 +529,6 @@ proxy-groups:
       - 台湾-专线ss1
       - 台湾-专线ss2
       - 台湾-专线ss3
-      - 台湾1-直连x
       - 台湾-流媒体专线
       - 日本1
       - 日本2
