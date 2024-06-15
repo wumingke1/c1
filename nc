@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-05-29 14:39:46
+# 创建时间：2024-06-15 09:06:56
 # 使用模版：V2RaySE 默认模版
-# 节点数量：48
+# 节点数量：41
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,54 +85,47 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"每次使用前请更新一下","type":"ss","server":"kk.huaweiddns.com","port":39444,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"香港1","type":"ss","server":"kk.huaweiddns.com","port":39444,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"香港2","type":"ss","server":"kk.huaweiddns.com","port":39444,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
+  - {"name":"每次使用前请更新一下","type":"ss","server":"td.huaweiddns.com","port":39444,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"香港1","type":"ss","server":"td.huaweiddns.com","port":39444,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"香港2","type":"ss","server":"td.huaweiddns.com","port":39444,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
   - {"name":"香港-中转隧道1","type":"vmess","server":"hk5g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"香港-中转隧道2","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":27506,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"香港-专线ss1","type":"ss","server":"4.467211.xyz","port":47194,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港-专线ss2","type":"ss","server":"4.467211.xyz","port":14785,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港-专线ss3","type":"ss","server":"ny.whatfuck.top","port":13531,"password":"1379e189-8dc5-4df1-86dc-9a08b455ff60","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"台湾1","type":"ss","server":"kk.huaweiddns.com","port":39845,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"台湾2","type":"ss","server":"cc.huaweiddns.com","port":39845,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
+  - {"name":"香港-中转隧道2","type":"vmess","server":"hk5g.xn--vhq70hxyat50h6wk.com","port":443,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"香港-专线ss1","type":"ss","server":"ejfbeuryhgfbuyertbgyurebguyregbyeurbgfuygberuygbreuygvbreguy.467211.xyz","port":47194,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-专线ss2","type":"ss","server":"zhuanfa002.xiyunchen.cn","port":24787,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"台湾","type":"ss","server":"td.huaweiddns.com","port":39845,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
   - {"name":"台湾-中转隧道1","type":"vmess","server":"tw1g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"台湾-中转隧道2","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":15757,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"台湾-专线ss1","type":"ss","server":"4.467211.xyz","port":14786,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"台湾-专线ss2","type":"ss","server":"4.467211.xyz","port":14790,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"台湾-专线ss3","type":"ss","server":"ny.whatfuck.top","port":12697,"password":"1379e189-8dc5-4df1-86dc-9a08b455ff60","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"日本1","type":"ss","server":"kk.huaweiddns.com","port":39645,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"日本2","type":"ss","server":"kk.huaweiddns.com","port":39645,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"日本-中转隧道1","type":"vmess","server":"jp5g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"日本-中转隧道2","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":19700,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"日本-专线ss1","type":"ss","server":"4.467211.xyz","port":14788,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"日本-专线ss2","type":"ss","server":"4.467211.xyz","port":14792,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"日本-专线ss3","type":"ss","server":"ny.whatfuck.top","port":18743,"password":"1379e189-8dc5-4df1-86dc-9a08b455ff60","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新加坡1","type":"ss","server":"kk.huaweiddns.com","port":39545,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"新加坡2","type":"ss","server":"kk.huaweiddns.com","port":39545,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"新加坡-专线ss1","type":"ss","server":"4.467211.xyz","port":14789,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新加坡-专线ss2","type":"ss","server":"4.467211.xyz","port":14791,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国1","type":"ss","server":"kk.huaweiddns.com","port":39745,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"美国2","type":"ss","server":"kk.huaweiddns.com","port":39745,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"美国-中转隧道1","type":"vmess","server":"us4g3.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"美国-中转隧道2","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":15261,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"美国-专线ss1","type":"ss","server":"4.467211.xyz","port":14787,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国-专线ss2","type":"ss","server":"4.467211.xyz","port":14793,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国-专线ss3","type":"ss","server":"ny.whatfuck.top","port":31594,"password":"1379e189-8dc5-4df1-86dc-9a08b455ff60","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"韩国","type":"ss","server":"kk.huaweiddns.com","port":39945,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"韩国-中转隧道1","type":"vmess","server":"kr500m.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"韩国-中转隧道2","type":"vmess","server":"kr4g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"韩国-专线ss1","type":"ss","server":"4.467211.xyz","port":14794,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"朝鲜-专线ss1","type":"ss","server":"4.467211.xyz","port":14797,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"朝鲜-专线ss2","type":"ss","server":"ny.whatfuck.top","port":31134,"password":"1379e189-8dc5-4df1-86dc-9a08b455ff60","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"澳大利亚1","type":"ss","server":"cc.huaweiddns.com","port":30445,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"澳大利亚2","type":"ss","server":"cc.huaweiddns.com","port":30445,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"英国1","type":"ss","server":"kk.huaweiddns.com","port":30455,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"英国2","type":"ss","server":"kk.huaweiddns.com","port":30455,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"印度","type":"ss","server":"kk.huaweiddns.com","port":30475,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"意大利","type":"ss","server":"kk.huaweiddns.com","port":30495,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"德国","type":"ss","server":"kk.huaweiddns.com","port":30465,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"土耳其","type":"ss","server":"kk.huaweiddns.com","port":30485,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
-  - {"name":"俄罗斯","type":"ss","server":"kk.huaweiddns.com","port":30505,"password":"bb954a32-48dd-4b1a-90d5-2661d5a1eacc","cipher":"aes-256-gcm"}
+  - {"name":"台湾-中转隧道2","type":"vmess","server":"tw1g.xn--vhq70hxyat50h6wk.com","port":443,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"台湾-专线ss1","type":"ss","server":"ejfbeuryhgfbuyertbgyurebguyregbyeurbgfuygberuygbreuygvbreguy.467211.xyz","port":14786,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"台湾-专线ss2","type":"ss","server":"zhuanfa002.xiyunchen.cn","port":24789,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"日本1","type":"ss","server":"td.huaweiddns.com","port":39645,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"日本2","type":"ss","server":"td.huaweiddns.com","port":39645,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"日本-中转隧道1","type":"vmess","server":"jp500m.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"日本-中转隧道2","type":"vmess","server":"jp5g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"日本-专线ss1","type":"ss","server":"ejfbeuryhgfbuyertbgyurebguyregbyeurbgfuygberuygbreuygvbreguy.467211.xyz","port":14788,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"日本-专线ss2","type":"ss","server":"zhuanfa002.xiyunchen.cn","port":24791,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"新加坡1","type":"ss","server":"td.huaweiddns.com","port":39545,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"新加坡2","type":"ss","server":"td.huaweiddns.com","port":39545,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"新加坡-专线ss1","type":"vmess","server":"sg5g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"新加坡-专线ss2","type":"ss","server":"ejfbeuryhgfbuyertbgyurebguyregbyeurbgfuygberuygbreuygvbreguy.467211.xyz","port":14789,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"新加坡-专线ss3","type":"ss","server":"zhuanfa002.xiyunchen.cn","port":24795,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国1","type":"ss","server":"td.huaweiddns.com","port":39745,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"美国2","type":"ss","server":"td.huaweiddns.com","port":39745,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"美国-中转隧道1","type":"vmess","server":"us4g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"美国-中转隧道2","type":"vmess","server":"us4g3.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"f186508d-b568-426b-8236-7e3efb3a466e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"美国-专线ss1","type":"ss","server":"ejfbeuryhgfbuyertbgyurebguyregbyeurbgfuygberuygbreuygvbreguy.467211.xyz","port":14787,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国-专线ss2","type":"ss","server":"zhuanfa002.xiyunchen.cn","port":24793,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"韩国1","type":"ss","server":"td.huaweiddns.com","port":39945,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"韩国2","type":"ss","server":"td.huaweiddns.com","port":39945,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"韩国-中转隧道1","type":"ss","server":"ejfbeuryhgfbuyertbgyurebguyregbyeurbgfuygberuygbreuygvbreguy.467211.xyz","port":14794,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"韩国-中转隧道2","type":"ss","server":"zhuanfa002.xiyunchen.cn","port":24797,"password":"7d629099-7811-48c5-918d-c28b52e0564e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"澳大利亚1","type":"ss","server":"td.huaweiddns.com","port":30445,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"澳大利亚2","type":"ss","server":"tm.huaweiddns.com","port":30445,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"英国","type":"ss","server":"td.huaweiddns.com","port":30455,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"印度","type":"ss","server":"td.huaweiddns.com","port":30475,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"意大利","type":"ss","server":"td.huaweiddns.com","port":30495,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"德国","type":"ss","server":"td.huaweiddns.com","port":30465,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"土耳其","type":"ss","server":"td.huaweiddns.com","port":30485,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
+  - {"name":"香港 B","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":21949,"cipher":"auto","uuid":"ca99dffd-cfde-47cd-a6fd-6afaaf7eb6fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -146,47 +139,40 @@ proxy-groups:
       - 香港-中转隧道2
       - 香港-专线ss1
       - 香港-专线ss2
-      - 香港-专线ss3
-      - 台湾1
-      - 台湾2
+      - 台湾
       - 台湾-中转隧道1
       - 台湾-中转隧道2
       - 台湾-专线ss1
       - 台湾-专线ss2
-      - 台湾-专线ss3
       - 日本1
       - 日本2
       - 日本-中转隧道1
       - 日本-中转隧道2
       - 日本-专线ss1
       - 日本-专线ss2
-      - 日本-专线ss3
       - 新加坡1
       - 新加坡2
       - 新加坡-专线ss1
       - 新加坡-专线ss2
+      - 新加坡-专线ss3
       - 美国1
       - 美国2
       - 美国-中转隧道1
       - 美国-中转隧道2
       - 美国-专线ss1
       - 美国-专线ss2
-      - 美国-专线ss3
-      - 韩国
+      - 韩国1
+      - 韩国2
       - 韩国-中转隧道1
       - 韩国-中转隧道2
-      - 韩国-专线ss1
-      - 朝鲜-专线ss1
-      - 朝鲜-专线ss2
       - 澳大利亚1
       - 澳大利亚2
-      - 英国1
-      - 英国2
+      - 英国
       - 印度
       - 意大利
       - 德国
       - 土耳其
-      - 俄罗斯
+      - 香港 B
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -200,47 +186,40 @@ proxy-groups:
       - 香港-中转隧道2
       - 香港-专线ss1
       - 香港-专线ss2
-      - 香港-专线ss3
-      - 台湾1
-      - 台湾2
+      - 台湾
       - 台湾-中转隧道1
       - 台湾-中转隧道2
       - 台湾-专线ss1
       - 台湾-专线ss2
-      - 台湾-专线ss3
       - 日本1
       - 日本2
       - 日本-中转隧道1
       - 日本-中转隧道2
       - 日本-专线ss1
       - 日本-专线ss2
-      - 日本-专线ss3
       - 新加坡1
       - 新加坡2
       - 新加坡-专线ss1
       - 新加坡-专线ss2
+      - 新加坡-专线ss3
       - 美国1
       - 美国2
       - 美国-中转隧道1
       - 美国-中转隧道2
       - 美国-专线ss1
       - 美国-专线ss2
-      - 美国-专线ss3
-      - 韩国
+      - 韩国1
+      - 韩国2
       - 韩国-中转隧道1
       - 韩国-中转隧道2
-      - 韩国-专线ss1
-      - 朝鲜-专线ss1
-      - 朝鲜-专线ss2
       - 澳大利亚1
       - 澳大利亚2
-      - 英国1
-      - 英国2
+      - 英国
       - 印度
       - 意大利
       - 德国
       - 土耳其
-      - 俄罗斯
+      - 香港 B
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -254,47 +233,40 @@ proxy-groups:
       - 香港-中转隧道2
       - 香港-专线ss1
       - 香港-专线ss2
-      - 香港-专线ss3
-      - 台湾1
-      - 台湾2
+      - 台湾
       - 台湾-中转隧道1
       - 台湾-中转隧道2
       - 台湾-专线ss1
       - 台湾-专线ss2
-      - 台湾-专线ss3
       - 日本1
       - 日本2
       - 日本-中转隧道1
       - 日本-中转隧道2
       - 日本-专线ss1
       - 日本-专线ss2
-      - 日本-专线ss3
       - 新加坡1
       - 新加坡2
       - 新加坡-专线ss1
       - 新加坡-专线ss2
+      - 新加坡-专线ss3
       - 美国1
       - 美国2
       - 美国-中转隧道1
       - 美国-中转隧道2
       - 美国-专线ss1
       - 美国-专线ss2
-      - 美国-专线ss3
-      - 韩国
+      - 韩国1
+      - 韩国2
       - 韩国-中转隧道1
       - 韩国-中转隧道2
-      - 韩国-专线ss1
-      - 朝鲜-专线ss1
-      - 朝鲜-专线ss2
       - 澳大利亚1
       - 澳大利亚2
-      - 英国1
-      - 英国2
+      - 英国
       - 印度
       - 意大利
       - 德国
       - 土耳其
-      - 俄罗斯
+      - 香港 B
   - name: 📲 电报信息
     type: select
     proxies:
@@ -307,47 +279,40 @@ proxy-groups:
       - 香港-中转隧道2
       - 香港-专线ss1
       - 香港-专线ss2
-      - 香港-专线ss3
-      - 台湾1
-      - 台湾2
+      - 台湾
       - 台湾-中转隧道1
       - 台湾-中转隧道2
       - 台湾-专线ss1
       - 台湾-专线ss2
-      - 台湾-专线ss3
       - 日本1
       - 日本2
       - 日本-中转隧道1
       - 日本-中转隧道2
       - 日本-专线ss1
       - 日本-专线ss2
-      - 日本-专线ss3
       - 新加坡1
       - 新加坡2
       - 新加坡-专线ss1
       - 新加坡-专线ss2
+      - 新加坡-专线ss3
       - 美国1
       - 美国2
       - 美国-中转隧道1
       - 美国-中转隧道2
       - 美国-专线ss1
       - 美国-专线ss2
-      - 美国-专线ss3
-      - 韩国
+      - 韩国1
+      - 韩国2
       - 韩国-中转隧道1
       - 韩国-中转隧道2
-      - 韩国-专线ss1
-      - 朝鲜-专线ss1
-      - 朝鲜-专线ss2
       - 澳大利亚1
       - 澳大利亚2
-      - 英国1
-      - 英国2
+      - 英国
       - 印度
       - 意大利
       - 德国
       - 土耳其
-      - 俄罗斯
+      - 香港 B
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -360,47 +325,40 @@ proxy-groups:
       - 香港-中转隧道2
       - 香港-专线ss1
       - 香港-专线ss2
-      - 香港-专线ss3
-      - 台湾1
-      - 台湾2
+      - 台湾
       - 台湾-中转隧道1
       - 台湾-中转隧道2
       - 台湾-专线ss1
       - 台湾-专线ss2
-      - 台湾-专线ss3
       - 日本1
       - 日本2
       - 日本-中转隧道1
       - 日本-中转隧道2
       - 日本-专线ss1
       - 日本-专线ss2
-      - 日本-专线ss3
       - 新加坡1
       - 新加坡2
       - 新加坡-专线ss1
       - 新加坡-专线ss2
+      - 新加坡-专线ss3
       - 美国1
       - 美国2
       - 美国-中转隧道1
       - 美国-中转隧道2
       - 美国-专线ss1
       - 美国-专线ss2
-      - 美国-专线ss3
-      - 韩国
+      - 韩国1
+      - 韩国2
       - 韩国-中转隧道1
       - 韩国-中转隧道2
-      - 韩国-专线ss1
-      - 朝鲜-专线ss1
-      - 朝鲜-专线ss2
       - 澳大利亚1
       - 澳大利亚2
-      - 英国1
-      - 英国2
+      - 英国
       - 印度
       - 意大利
       - 德国
       - 土耳其
-      - 俄罗斯
+      - 香港 B
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -413,47 +371,40 @@ proxy-groups:
       - 香港-中转隧道2
       - 香港-专线ss1
       - 香港-专线ss2
-      - 香港-专线ss3
-      - 台湾1
-      - 台湾2
+      - 台湾
       - 台湾-中转隧道1
       - 台湾-中转隧道2
       - 台湾-专线ss1
       - 台湾-专线ss2
-      - 台湾-专线ss3
       - 日本1
       - 日本2
       - 日本-中转隧道1
       - 日本-中转隧道2
       - 日本-专线ss1
       - 日本-专线ss2
-      - 日本-专线ss3
       - 新加坡1
       - 新加坡2
       - 新加坡-专线ss1
       - 新加坡-专线ss2
+      - 新加坡-专线ss3
       - 美国1
       - 美国2
       - 美国-中转隧道1
       - 美国-中转隧道2
       - 美国-专线ss1
       - 美国-专线ss2
-      - 美国-专线ss3
-      - 韩国
+      - 韩国1
+      - 韩国2
       - 韩国-中转隧道1
       - 韩国-中转隧道2
-      - 韩国-专线ss1
-      - 朝鲜-专线ss1
-      - 朝鲜-专线ss2
       - 澳大利亚1
       - 澳大利亚2
-      - 英国1
-      - 英国2
+      - 英国
       - 印度
       - 意大利
       - 德国
       - 土耳其
-      - 俄罗斯
+      - 香港 B
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -483,47 +434,40 @@ proxy-groups:
       - 香港-中转隧道2
       - 香港-专线ss1
       - 香港-专线ss2
-      - 香港-专线ss3
-      - 台湾1
-      - 台湾2
+      - 台湾
       - 台湾-中转隧道1
       - 台湾-中转隧道2
       - 台湾-专线ss1
       - 台湾-专线ss2
-      - 台湾-专线ss3
       - 日本1
       - 日本2
       - 日本-中转隧道1
       - 日本-中转隧道2
       - 日本-专线ss1
       - 日本-专线ss2
-      - 日本-专线ss3
       - 新加坡1
       - 新加坡2
       - 新加坡-专线ss1
       - 新加坡-专线ss2
+      - 新加坡-专线ss3
       - 美国1
       - 美国2
       - 美国-中转隧道1
       - 美国-中转隧道2
       - 美国-专线ss1
       - 美国-专线ss2
-      - 美国-专线ss3
-      - 韩国
+      - 韩国1
+      - 韩国2
       - 韩国-中转隧道1
       - 韩国-中转隧道2
-      - 韩国-专线ss1
-      - 朝鲜-专线ss1
-      - 朝鲜-专线ss2
       - 澳大利亚1
       - 澳大利亚2
-      - 英国1
-      - 英国2
+      - 英国
       - 印度
       - 意大利
       - 德国
       - 土耳其
-      - 俄罗斯
+      - 香港 B
 
 rules:
 # 本地/局域网地址
